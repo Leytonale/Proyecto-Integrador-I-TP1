@@ -15,6 +15,8 @@ Este proyecto implementa una solución IoT utilizando el ESP8266, un sensor DHT1
 - ESP8266
 - Sensor DHT11
 - Pantalla OLED SSD1306
+- Servidor virtual
+- Computadora con 2gb de RAM y 1.3GHz de procesador
 - Conexiones y componentes adicionales según el esquemático del proyecto
 
 ## Instrucciones de instalación
