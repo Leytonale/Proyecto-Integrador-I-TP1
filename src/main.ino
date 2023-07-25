@@ -11,8 +11,8 @@
 //#define DHTTYPE DHT22 // DHT 22 (AM2302), AM2321
 //#define DHTTYPE DHT21 // DHT 21 (AM2301)
 
-#define wifi_ssid "Leyton 2.4Ghz"
-#define wifi_password "SuriRanCho2733"
+#define wifi_ssid "wifi_ssid"
+#define wifi_password "wifi_password"
 
 #define mqtt_server "192.168.1.38"
 //#define mqtt_user "user"
