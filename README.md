@@ -1,8 +1,8 @@
-# Proyecto Integrado I 
+# Proyecto Integrador I 
 
-# Trabajo Práctico 1: Solución IoT basada en MQTT sobre entorno WLAN
+# Solución IoT basada en MQTT sobre entorno WLAN
 
-Este proyecto implementa una solución IoT utilizando el ESP8266, un sensor DHT11 de temperatura y humedad, y una pantalla OLED SSD1306. El dispositivo se conecta a una red WLAN y envía los datos de temperatura y humedad a un servidor MQTT local a través del protocolo MQTT. Además, los datos se visualizan en tiempo real en la pantalla OLED.
+Este proyecto implementa una solución IoT utilizando el ESP8266, un sensor DHT11 de temperatura y humedad. El dispositivo se conecta a una red WLAN y envía los datos de temperatura y humedad a un servidor MQTT local a través del protocolo MQTT. Además, los datos se visualizan en tiempo real en grafana.
 
 ## Contenido del repositorio
 
@@ -14,7 +14,6 @@ Este proyecto implementa una solución IoT utilizando el ESP8266, un sensor DHT1
 
 - ESP8266
 - Sensor DHT11
-- Pantalla OLED SSD1306
 - Servidor virtual
 - Computadora con 2gb de RAM y 1.3GHz de procesador
 - Conexiones y componentes adicionales según el esquemático del proyecto
@@ -24,7 +23,7 @@ Este proyecto implementa una solución IoT utilizando el ESP8266, un sensor DHT1
 1. Clona este repositorio en tu computadora:
 git clone https://github.com/Leytonale/Proyecto-Integrador-I-TP1
 
-2. Conecta el ESP8266, el sensor DHT11 y la pantalla OLED SSD1306 según el esquemático proporcionado.
+2. Conecta el ESP8266, el sensor DHT11 según el esquemático proporcionado.
 
 3. Abre el proyecto en tu entorno de desarrollo preferido (por ejemplo, Arduino IDE).
 
@@ -46,7 +45,7 @@ git clone https://github.com/Leytonale/Proyecto-Integrador-I-TP1
 
 2. El dispositivo comenzará a leer la temperatura y humedad del sensor DHT11 y enviará los datos al servidor MQTT.
 
-3. La pantalla OLED mostrará los datos de temperatura y humedad en tiempo real.
+3. Se mostraran los datos obtenidos en grafana.
 
 ## Contribuciones
 
